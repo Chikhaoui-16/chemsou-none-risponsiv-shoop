@@ -430,13 +430,7 @@ newcartt.forEach((el,id)=>{
                         price:shoswomen[id-15].price,
                         },]
                         console.log(shos_arr,id );
-                };
-                
-                // when click at add to cart make boo
-                // vanish.style.display="block"
-        })
-    })
-
+                };})})
 // vu IMG
     imgs.forEach((el,id) => {
             el.addEventListener("click",function(){
@@ -480,11 +474,7 @@ newcartt.forEach((el,id)=>{
         </div>
     </div>
         `
-        }}
-
-
-        
-            
+            vanish.style.display="block"}}
 
 let flashs = document.getElementById("flash")
 onscroll = function  (){
