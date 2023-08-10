@@ -1,0 +1,85 @@
+.lastpage{
+    background-color: #eee;
+}
+
+.lastpage,.satasfy h1,
+.lastpage,.satasfy p {
+    color: black;
+    margin: 10px;
+}
+input[type="number"]{
+    width: 50px;
+    height: 45px;
+    font-size: 30px;
+}
+.lastpage{
+    background-color: #fff;
+    border: 3px solid #12aab2 ;
+    margin: 50px auto;
+    padding: 50px;
+    width: 80%;
+}
+form{
+    margin-bottom: 15px;
+}
+h1 span{
+    color: red;
+    font-size: 1.3em;
+}
+.dilivertim span{
+    font-size: 3em;
+    background-color: aqua;
+    color: red;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+.satasfy{
+    background-color: #fff;
+    border: 3px solid #12aab2 ;
+    margin: 50px auto;
+    padding: 50px;
+    width: 80%;
+}
+.satasfy div{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+.satasfy img{
+    max-width: 100px;
+    border: 3px solid #12aab2;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.chosenOne {
+    width: 100%;
+}
+.chosenOne img{
+    width: 70%;
+    height: 20%;
+    margin: 0 auto 100px;
+}
+.dilivertim h1{
+    margin-bottom: 20px;
+}
+.ditaill{
+    margin-top: 20px;
+}
+#car{
+    cursor: pointer;
+}
+#bodys{
+    display: none;
+}
+
+#buys{
+    width: 40%;
+    margin: 0 0 10px 30%;
+    padding: 10px 5px;
+    background-color: #0c7075;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

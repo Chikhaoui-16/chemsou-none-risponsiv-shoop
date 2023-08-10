@@ -1,0 +1,237 @@
+*{
+    scroll-behavior: smooth;
+}
+.links-man{
+    width: 100%; 
+    
+}
+
+.links-man ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.links-man ul li{
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.links-man ul li a{
+    color: #fff;
+}
+
+.links-man li:hover{
+    background: rgba(255, 255, 255, 0.132);
+    border: var(--box);
+}
+
+.links-man li ul{
+    flex-direction: column;
+}
+
+.links-man .boo{
+    background-color: red;
+}
+
+ul div,.hodhod{
+    display: none;
+}
+.links-man i{
+position: relative;
+top: 40%;
+right: 28px;
+font-size: 20px;
+font-size: 25px;
+}
+
+.content{
+    height: fit-content;
+    padding: 50px 0 0;
+    padding-bottom: 30px;
+}
+
+#tshirtt ,#pantst, #watcht,#shoset{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: #12aab25f;
+    padding: 100px 0;
+    flex-direction: row;
+}
+#tshirts ,#pantss, #watchs,#shoses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: #12aab25f;
+    padding: 100px 0;
+    flex-direction: row;
+}
+
+.carte{
+    height: fit-content;
+    width: 250px;
+    background-color:#12aab2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carte h1{
+font-size: 17px;
+width: 100%;
+}
+.carte h2{
+    color: black;
+    font-size: 35px;
+}
+
+.carte img{
+    max-width: 160px;
+    height: 175px;
+    justify-self: center;
+}
+.links-man #books,#bookss{
+    /* display: none; */
+    background-color: rgba(11, 11, 11, 0.482);
+    height: fit-content ;
+    width: fit-content;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    padding: 0;
+    display: none;
+}
+.carte span{
+    color: red !important;
+}
+.carte input{
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    z-index: 100;
+}
+.carte input::placeholder{
+    color: #fff;
+}
+
+#flash{
+    height: 30px;
+    width: 15px;
+    background: red;    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}
+
+#flash::after{
+    content: "";
+    position: absolute;
+    background: red;
+    height: 25px;
+    width: 40px;
+    bottom:30px ;
+    left: -12px;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.big{
+    width: 70%;
+    height: 80vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background-color: #12aab22d;
+    background-size: auto;
+    display: none;
+}
+#buy{
+    width: 40%;
+    margin: 0 0 10px 30%;
+    padding: 10px 5px;
+    background-color: #0c7075;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.big img{
+    max-width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+}
+
+#carshop{
+    background: #d2cece;
+    padding: 40px;
+    color: black;
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 1000000;
+    right: 0;
+    display: none;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+#carshop .xxx{
+    position: relative;
+    left: 100%;
+    bottom: 20px;
+    cursor: pointer;
+    
+}
+#carilm{
+    display: flex;
+}
+#carshop div div{
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px black solid;
+    padding: 9px;
+}
+#carshop div i{
+    border: 2px red solid;
+    padding: 5px;
+}
+
+.bobob{
+    width: 100px;
+    height: 100px;
+}
+
+.star button{
+    margin: 0 25% 20px;
+    width: 50%;
+    background-color: rgb(169, 247, 247);
+    border: none;
+}
+
+.satPersons img{
+    width: 200px;
+    border: #12aab2 solid 2px;
+    border-radius: 50%;
+}
+i{
+    transition: 1s;
+
+}
+.heart{
+    color: red;
+}
+.carnon{
+    display: block;
+}
+
