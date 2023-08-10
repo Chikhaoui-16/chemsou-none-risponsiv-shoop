@@ -159,7 +159,7 @@ section p{
     height: 13px ;
     border-radius: 50%;
     background-color: #fff;
-    right: 36%;
+    right: 35%;
     top: 50%;
     transition: .5s;
 }
@@ -170,9 +170,15 @@ section p{
     height: 13px ;
     border-radius: 50%;
     background-color: #fff;
-    left: 36%;
+    left: 35%;
     top: 50%;
     transition: .5s;
+}
+.news .head::after{
+    right: 20%;
+}
+.news .head::before{
+    left: 20%;
 }
 .head:hover.head::after , .head:hover.head::before{
 transform: translatey(-20px);
@@ -261,6 +267,12 @@ width: 0;
 .catigory h2{
     font-size: 30px;
     margin: 0 50px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .new{
     display: flex;
