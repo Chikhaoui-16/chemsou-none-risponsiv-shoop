@@ -16,11 +16,11 @@ function vali(){
     book.style.padding="0"
 }
 
-// function roll(id) {
-//     if (id=="tshirt"||"pants"||"watch"||"shose"){
-//         book.style.display="none"
-//     }
-// }
+function roll(id) {
+    if (id=="tshirt"||"pants"||"watch"||"shose"){
+        book.style.display="none"
+    }
+}
 let tshirtwomen = [
     {
         photo:"img/fimal/tshirt/tshirt fam 1.jpg",
